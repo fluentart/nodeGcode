@@ -113,7 +113,7 @@ var readerstream = new DataReader (file, { encoding: "utf8" })
             }
 
             var fs = require('fs');
-			fs.writeFile("test.gcode", filecontents, function(err) {
+			fs.writeFile("testoutput.prg", filecontents, function(err) {
 			    if(err) {
 			        console.log(err);
 			    } else {
