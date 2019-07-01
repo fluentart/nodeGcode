@@ -1,14 +1,25 @@
 {
-  "name": "nodeGcode",
-  "description": "processed gcode",
-  "version": "0.0.1",
-  "private": true,
-  "author": {
-    "name": "Rouan van der Ende",
-    "email": "rouan@8bo.org"
+  "name": "nodegcode",
+  "version": "0.0.2",
+  "description": "processed gcode\r =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildwatch": "tsc --sourcemap --w --lib es2015 ./src/nodegcode.ts --outDir ./build"
   },
-  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluentart/nodeGcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fluentart/nodeGcode/issues"
+  },
+  "homepage": "https://github.com/fluentart/nodeGcode#readme",
   "dependencies": {
-    "buffered-reader": "~1.0.1"
+    "@types/node": "^12.0.8",
+    "typescript": "^3.5.2"
   }
 }
